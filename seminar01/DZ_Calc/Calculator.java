@@ -9,9 +9,9 @@ public class Calculator {
         stack = new ArrayDeque<>();
 
     }
-    public double calculate(String operator, double operand1, double operand2) {
+    public double calculate(String op, double operand1, double operand2) {
         double result = 0;
-        switch (operator) {
+        switch (op) {
             case "+":
                 result = operand1 + operand2;
                 break;
@@ -25,7 +25,7 @@ public class Calculator {
                 result = operand1 / operand2;
                 break;
             default:
-                System.out.println("Некорректный оператор: '" + operator + "'");
+                System.out.println("Некорректный оператор: '" + op + "'");
                 break;
         }
         stack.push(result);
