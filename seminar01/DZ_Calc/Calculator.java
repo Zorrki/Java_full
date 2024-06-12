@@ -5,10 +5,12 @@ import java.util.Deque;
 
 public class Calculator {
     private Deque<Double> stack;
+
     public Calculator() {
         stack = new ArrayDeque<>();
 
     }
+
     public double calculate(String op, double operand1, double operand2) {
         double result = 0;
         switch (op) {
@@ -41,7 +43,7 @@ public class Calculator {
         return stack.peek();
     }
 
-// Не удаляйте этот класс - он нужен для вывода результатов на экран и проверки
+    // Не удаляйте этот класс - он нужен для вывода результатов на экран и проверки
 public class Printer{ 
     public static void main(String[] args) { 
         int a = 0;
