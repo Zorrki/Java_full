@@ -58,7 +58,45 @@ public class Lection {
     // int i = 123_232_2;
     // System.out.println(i);
 
-    String s = "qwer";
-    s.CharAt(1)
+    // String s = "qwer";
+    // s.CharAt(1)
+    // }
+
+    // Побитовые операции
+    // int a = 18;
+    // // 10010
+    // System.out.println(a >> 1);
+    // // 1001
+    // }
+
+    // int a = 5;
+    // int b = 2;
+    // System.out.println(a | b);
+    // 101
+    // 010
+    // 111 итог (число 7)
+
+    // int a = 5;
+    // int b = 2;
+    // System.out.println(a | b);
+
+    // int a = 5;
+    // int b = 2;
+    // System.out.println(a ^ b);
+    
+    // boolean a = true;
+    // boolean b = true;
+    // System.out.println(a & b);
+    // System.out.println(a && b);
+
+    // String s = "qww1"; // 4, 0 .. 3
+    // // boolean b = s.length() >= 5 && s.charAt(4) == '1';
+    // boolean b = s.length() >= 5 & s.charAt(4) == '1';
+    // System.out.println(b);
+
+    // String s = "qww1"; // 4, 0 .. 3
+    // boolean b = s.length() >= 5 && s.charAt(4) == '1';
+    // //boolean b = s.length() >= 5 | s.charAt(4) == '1';
+    // System.out.println(b);
     }
 }
